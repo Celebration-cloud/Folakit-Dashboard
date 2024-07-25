@@ -1,0 +1,88 @@
+/* ProductList.module.css */
+.productListContainer{
+    min-width: 140px;
+    height: 100%;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.product-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 16px;
+}
+
+.product-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.product-description {
+  font-size: 14px;
+  color: #777;
+}
+
+.product-price {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Add hover effect */
+.product-card:hover {
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* ProductList.module.css */
+
+.quantityCell {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 4px;
+  font-weight: light;
+}
+
+.available {
+  background-color: #4caf50; /* Green background for available items */
+  color: white;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 30px;
+}
+
+.unavailable {
+  background-color: #f44336; /* Red background for unavailable items */
+  color: white;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 30px;
+}
+.processing {
+  background-color: orange; /* Red background for unavailable items */
+  color: white;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 30px;
+}
+.action:hover{
+  background-color: rgb(60, 142, 204);
+  border-radius: 100%;
+  color: white;
+  padding: 3px;
+}

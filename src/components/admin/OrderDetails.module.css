@@ -1,0 +1,33 @@
+.details{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    min-width: 850px;
+}
+.orderInfo{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.address{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.totalSection{
+    width: 100%;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+.tols{
+    display: inline-flex;
+    width: 30%;
+    flex-direction: column;
+}
+.total{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.header{
+    background-color: aliceblue;
+}

@@ -1,0 +1,8 @@
+.action:hover{
+  background-color: rgb(60, 142, 204);
+  border-radius: 100%;
+  color: white;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+}
