@@ -1,0 +1,3 @@
+export const GET_CUSTOMER_LIST = "GET_CUSTOMER_LIST"
+export const GET = "GET"
+export const FAILED_RANDOM_QUOTE = "FAILED_RANDOM_QUOTE"

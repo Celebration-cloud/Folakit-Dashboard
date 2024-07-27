@@ -1,0 +1,3 @@
+export const GET_CUSTOMER_LIST = "GET_CUSTOMER_LIST"
+export const GET_CUSTOMER_ORDERS = "GET_CUSTOMER_ORDERS"
+export const GET = "GET"

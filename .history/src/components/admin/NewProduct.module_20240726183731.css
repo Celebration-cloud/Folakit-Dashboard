@@ -1,0 +1,42 @@
+/* styles.module.css */
+
+.container {
+  /* Other styles for your section */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  /* Add box shadow */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.form{
+    width: 100%;
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form button{
+    align-self: flex-start;
+}
+.formInput{
+    display: inline-flex;
+    gap: 10px;
+    width: 100%;
+}
+.part1{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.part2{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+}
+@media (max-width: 1000px) {
+    .formInput{
+        display: block;
+    }
+}
